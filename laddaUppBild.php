@@ -45,8 +45,11 @@
 
 
     <div class="container">
-
-      Hej igen
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        Välj en bild
+        <input type="file" name="fileToUpload" id="fileToUpload" required>
+        <input type="submit" value="Upload image" name="submit">
+      </form>
 
     </div>   
 
